@@ -5,7 +5,7 @@
 --DarkGrayishBlue:hsl(228, 12%, 48%);
 --White: hsl(0, 0%, 100%);
 }
-@media (max-width:767px){
+@media(max-width:767px){
     .desktop{
         display:none;
     }
