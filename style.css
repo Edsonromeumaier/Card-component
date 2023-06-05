@@ -10,40 +10,13 @@
 --White: hsl(0, 0%, 100%);
 }
 
-
-
-<<<<<<< HEAD
-body {    
-    background-color: var(--Cream)!important;    
-    margin:1.2rem 0.8rem;
-=======
-body {
-    height:100vh; 
-    background-color: var(--Cream)!important;    
-    
->>>>>>> 197b956 (melhora a responsividade 23mar_18:30)
- }
-
-
 @media screen and (max-width:767px) {
-<<<<<<< HEAD
-
-.card{
-        margin: 0 auto;
-        background-color: var(--White);        
-        }
-.card-text.text-uppercase.preview {
-            font-family:'Fraunces', serif;
-            color: var(--DarkGrayishBlue); font-size:x-small;   
-            font-weight: bold;
-            letter-spacing: 4px;
-=======
-  body {
+ 
+body {
     height:100vh;   
     background-color: var(--Cream)!important;    
  }
-
-.card{       
+.card-body{       
         background-color: var(--White);  
         padding: 0 1rem;
         max-width: 90%;
@@ -51,17 +24,16 @@ body {
         border-radius: 0;
 }
     
-        }
+  
 .card-text.text-uppercase.preview {
         font-family:'Fraunces', serif;
         color: var(--DarkGrayishBlue); font-size:x-small;        
         letter-spacing: 4px;
->>>>>>> 197b956 (melhora a responsividade 23mar_18:30)
-          }
+}
+
 .card-title.PerfumName{
             font-family: 'Fraunces' !important;
             width:250px;
-
             
 }
 .card-text.paragraf{
@@ -72,15 +44,10 @@ body {
             word-spacing: 2px;
             
           }
+         
 .d-flex_justify_content_between{
-          
-          
-.d-flex_justify_content_between{
-          
-          
-            font-family: 'Fraunces', sans-serif;
-
-          }   
+  font-family: 'Fraunces', sans-serif;
+}   
 
 .card-text.aprice{
             font-size:28px;
@@ -105,4 +72,78 @@ body {
     bottom: 0;
     width:100%;
   }
-          
+}        
+@media screen and (min-width:768px) {
+ 
+  body {
+    
+    height:100vh;   
+    background-color: var(--Cream)!important;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+.card-body{       
+        width: 60%;
+        background-color: lightgreen;  
+        padding: 0 1rem;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        border-radius: 0;
+        
+}
+    
+  
+.card-text.text-uppercase.preview {
+        font-family:'Fraunces', serif;
+        color: var(--DarkGrayishBlue); font-size:x-small;        
+        letter-spacing: 4px;
+}
+
+.card-title.PerfumName{
+            font-family: 'Fraunces' !important;
+            width:250px;
+            color: var(--DarkGrayishBlue);
+            
+}
+.card-text.paragraf{
+            font-family:'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size:small;
+            color: var(--DarkGrayishBlue);
+            word-spacing: 2px;
+            
+          }
+         
+.d-flex_justify_content_between{
+  font-family: 'Fraunces', sans-serif;
+}   
+
+.card-text.aprice{
+            font-size:28px;
+            font-family:'Fraunces';
+            color: var(--Darkcyan);
+            width:50%;
+            margin-right: 10px;
+            
+          }
+              
+.card-text.pprice{ 
+    display:flex;
+    align-items: center;
+    text-decoration:line-through;
+    color:var(--DarkGrayishBlue);
+    font-size: small;
+    width: 45%;
+    margin-left:30px;
+  }
+
+  .attribution.text-center.mt-3 {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+  }
+}
+}
