@@ -33,6 +33,7 @@ body {
 .card-title.PerfumName{
             font-family: 'Fraunces' !important;
             width:250px;
+            color: var(--VeryDarkBlue);
             
 }
 .card-text.paragraf{
@@ -94,6 +95,7 @@ body {
 }
 .col-md-6.d-flex.flex-column.justify-content-center{
   overflow: hidden;
+  max-width: 600px;
 }
 
   
