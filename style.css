@@ -12,8 +12,7 @@
 
 @media screen and (max-width:767px) {
  
-body {
-    height:100vh;   
+body {     
     background-color: var(--Cream)!important;    
  }
 .card-body{       
@@ -45,7 +44,7 @@ body {
             
           }
          
-.d-flex_justify_content_between{
+.d-flex.justify-content-between{
   font-family: 'Fraunces', sans-serif;
 }   
 
@@ -75,9 +74,8 @@ body {
 }        
 @media screen and (min-width:768px) {
  
-  body {
-    
-    height:100vh;   
+  body {   
+    height: 100vh;
     background-color: var(--Cream)!important;    
     display: flex;
     justify-content: center;
@@ -94,7 +92,10 @@ body {
         border-radius: 0.8rem;
         
 }
-    
+.col-md-6.d-flex.flex-column.justify-content-center{
+  overflow: hidden;
+}
+
   
 .card-text.text-uppercase.preview {
         font-family:'Fraunces', serif;
@@ -117,7 +118,7 @@ body {
             
           }
          
-.d-flex_justify_content_between{
+.d-flex.justify-content-between{
   font-family: 'Fraunces', sans-serif;
 }   
 
