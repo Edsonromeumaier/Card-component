@@ -85,7 +85,7 @@ body {
     background-color: blanchedalmond;
     margin: 15% auto;
     padding: 20px;
-    border 1px solid #888;
+    border:1px solid #888;
   }
 }        
 @media screen and (min-width:768px) {
@@ -176,6 +176,6 @@ body {
   background-color: blanchedalmond;
   margin: 15% auto;
   padding: 20px;
-  border 1px solid #888;
+  border:1px solid #888;
 }
 }
